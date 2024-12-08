@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Store Clothes</h1>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="sobre">
+        <h2>Roupas Multimarcas</h2>
+        <p>A moda não é apenas sobre roupas, é sobre atitude.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Você pode entrar em contato pelo numero:44998116831</p>
+    </section>
+</div>
+<img class="imagem-centralizada" src="foto.jpg" alt="Imagem">
+<footer>
+    <p>&copy; 2024 Ano da virada, não de ano, de vida</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botão com JavaScript</title>
+  <style>
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Exemplo de Botão</h1>
+  <button id="meuBotao">acesse aqui</button>
+
+  <script>
+    // Seleciona o botão pelo ID
+    const botao = document.getElementById("meuBotao");
+
+    // Adiciona um evento de clique ao botão
+    botao.addEventListener("click", function () {
+      alert("Você clicou no botão!");
+    });
+  </script>
+</body>
+</html>
